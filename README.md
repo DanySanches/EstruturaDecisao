@@ -36,7 +36,7 @@ public class Exercicio1 {
 
 ### 📚 Exercício 2: Verificar se um número é par ou ímpar#
 
-# 🧐 Descrição
+### 🧐 Descrição
 
 Neste exercício, criamos um programa que lê um número inteiro e informa se ele é par ou ímpar.
 
@@ -62,6 +62,6 @@ public class Exercicio2 {
 }
 ```
 
-## Exemplo de Saída:
+### Exemplo de Saída:
 - **Entrada:** 4 → Saída: 4 é par
 - **Entrada:** 7 → Saída: 7 é ímpar
