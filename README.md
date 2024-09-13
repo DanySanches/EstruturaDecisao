@@ -40,7 +40,7 @@ public class Exercicio1 {
 
 Neste exercício, criamos um programa que lê um número inteiro e informa se ele é par ou ímpar.
 
-###📋 Exemplo de código
+### 📋 Exemplo de código
 
 ```java
 import java.util.Scanner;
