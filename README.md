@@ -29,7 +29,7 @@ public class Exercicio1 {
 }
 ```
 
-#Exemplo de Saída:
+### Exemplo de Saída:
 - **Entrada:** -5 → Saída: -5 é negativo
 - **Entrada:** 0 → Saída: O número é neutro.
 - **Entrada:** 10 → Saída: 10 é positivo
