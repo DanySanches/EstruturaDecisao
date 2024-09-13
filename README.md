@@ -2,13 +2,13 @@
 
 Este repositório contém exercícios básicos que envolvem estruturas condicionais em Java. São pequenos programas para praticar os conceitos de lógica de programação usando if, else if e else. Cada exemplo é simples e direto, mas útil para iniciantes.
 
-#📚 Exercício 1: Verificar se um número é positivo, negativo ou neutro
+### 📚 Exercício 1: Verificar se um número é positivo, negativo ou neutro
 
-#🧐 Descrição 
+### 🧐 Descrição 
 
 Neste exercício, vamos criar um programa que lê um número inteiro digitado pelo usuário e informa se o número é positivo, negativo ou neutro (igual a zero).
 
-#📋 Exemplo de código
+### 📋 Exemplo de código
 
 ```java
 import java.util.Scanner;
