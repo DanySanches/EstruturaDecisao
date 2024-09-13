@@ -104,3 +104,40 @@ public class Exercicio3 {
 
 - **Entrada:** 6 e 3 → Saída: 6 e 3 são múltiplos
 - **Entrada:** 8 e 5 → Saída: 8 e 5 não são múltiplos
+
+ ### 📚 Exercício 4: Calcular a duração de um jogo
+ 
+### 🧐 Descrição
+
+Neste exercício, criamos um programa que lê a hora de início e a hora de término de um jogo e calcula a sua duração. O jogo pode começar em um dia e terminar no outro, com uma duração mínima de 1 hora e máxima de 24 horas.
+
+### 📋 Exemplo de código
+
+```java
+import java.util.Scanner;
+
+public class Exercicio4 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite o início do jogo: ");
+        int inicio = sc.nextInt();
+        System.out.println("Digite o fim do jogo: ");
+        int fim = sc.nextInt();
+
+        int duracao;
+
+        if(inicio < fim){
+            duracao = fim - inicio;
+            System.out.printf("O jogo durou %d hora(s)", duracao);
+        } else {
+           duracao = 24 - inicio + fim;
+           System.out.printf("O jogo durou %d hora(s)", duracao);
+        }
+        sc.close();
+    }
+}
+```
+
+### Exemplo de Saída:
+- **Entrada:** 10 (início) e 14 (fim) → Saída: O jogo durou 4 hora(s)
+- **Entrada:** 22 (início) e 4 (fim) → Saída: O jogo durou 6 hora(s)
