@@ -1,4 +1,4 @@
-###📝 Exercícios de Estrutura Condicional em Java
+###📝 Exercícios de Estrutura Condicional em Java ###
 Este repositório contém exercícios básicos que envolvem estruturas condicionais em Java. São pequenos programas para praticar os conceitos de lógica de programação usando if, else if e else. Cada exemplo é simples e direto, mas útil para iniciantes.
 
 ##📚 Exercício 1: Verificar se um número é positivo, negativo ou neutro
