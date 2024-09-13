@@ -34,7 +34,7 @@ public class Exercicio1 {
 - **Entrada:** 0 → Saída: O número é neutro.
 - **Entrada:** 10 → Saída: 10 é positivo
 
-### 📚 Exercício 2: Verificar se um número é par ou ímpar#
+### 📚 Exercício 2: Verificar se um número é par ou ímpar
 
 ### 🧐 Descrição
 
@@ -103,4 +103,4 @@ public class Exercicio3 {
 ### Exemplo de Saída:
 
 - **Entrada:** 6 e 3 → Saída: 6 e 3 são múltiplos
-- **Entrada: ** 8 e 5 → Saída: 8 e 5 não são múltiplos
+- **Entrada:** 8 e 5 → Saída: 8 e 5 não são múltiplos
