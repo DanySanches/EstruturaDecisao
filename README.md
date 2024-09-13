@@ -65,3 +65,42 @@ public class Exercicio2 {
 ### Exemplo de Saída:
 - **Entrada:** 4 → Saída: 4 é par
 - **Entrada:** 7 → Saída: 7 é ímpar
+
+
+### 📚 Exercício 3: Verificar se dois números são múltiplos
+
+### 🧐 Descrição
+
+Neste exercício, criamos um programa que lê dois números inteiros e verifica se eles são múltiplos entre si. O programa aceita os números em qualquer ordem (crescente ou decrescente).
+
+### 📋 Exemplo de código
+
+```java
+import java.util.Scanner;
+
+public class Exercicio3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Digite o primeiro número: ");
+        int A = sc.nextInt();
+
+        System.out.println("Digite o segundo número: ");
+        int B = sc.nextInt();
+
+        if(A % B == 0 || B % A == 0){
+            System.out.printf("%d e %d são múltiplos", A, B);
+        } else {
+            System.out.printf("%d e %d não são múltiplos", A, B);
+        }
+
+        sc.close();
+    }
+}
+
+```
+
+### Exemplo de Saída:
+
+- **Entrada:** 6 e 3 → Saída: 6 e 3 são múltiplos
+- **Entrada: ** 8 e 5 → Saída: 8 e 5 não são múltiplos
