@@ -141,3 +141,71 @@ public class Exercicio4 {
 ### Exemplo de Saída:
 - **Entrada:** 10 (início) e 14 (fim) → Saída: O jogo durou 4 hora(s)
 - **Entrada:** 22 (início) e 4 (fim) → Saída: O jogo durou 6 hora(s)
+
+### 📚 Exercício 5: Calcular o valor de um pedido em uma lanchonete
+
+### 🧐 Descrição
+
+Neste exercício, criamos um programa que lê o código de um item do menu de uma lanchonete e a quantidade solicitada. O programa calcula o valor total a ser pago com base nos preços dos itens.
+
+Tabela de preços:
+
+- 1: Cachorro-Quente → R$ 4.00
+- 2: X-Salada → R$ 4.50
+- 3: X-Bacon → R$ 5.00
+- 4: Torrada Simples → R$ 2.00
+- 5: Refrigerante → R$ 1.50
+
+###📋 Exemplo de código
+
+```java
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercicio5 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Locale.setDefault(Locale.US);
+
+        System.out.println("Digite o código do produto(1-5): ");
+        int produto = sc.nextInt();
+        System.out.println("Digite a quantidade: ");
+        int quantidade = sc.nextInt();
+
+        double valor = 0;
+
+        switch (produto) {
+            case 1:
+                valor = 4.0;
+                break;
+            case 2:
+                valor = 4.50;
+                break;
+            case 3:
+                valor = 5.0;
+                break;
+            case 4:
+                valor = 2.0;
+                break;
+            case 5:
+                valor = 1.50;
+                break;
+            default:
+                System.out.println("Digite uma opção válida");
+        }
+
+        if(valor > 0){
+            double total = valor * quantidade;
+            System.out.printf("O valor a pagar é R$ %.2f\n", total);
+        }
+
+        sc.close();
+    }
+}
+```
+
+### Exemplo de Saída:
+- **Entrada:** 1 (Cachorro-Quente) e 2 (quantidade) → Saída: O valor a pagar é R$ 8.00
+- **Entrada:** 3 (X-Bacon) e 1 (quantidade) → Saída: O valor a pagar é R$ 5.00
+
+
