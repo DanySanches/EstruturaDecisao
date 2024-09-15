@@ -208,4 +208,47 @@ public class Exercicio5 {
 - **Entrada:** 1 (Cachorro-Quente) e 2 (quantidade) → Saída: O valor a pagar é R$ 8.00
 - **Entrada:** 3 (X-Bacon) e 1 (quantidade) → Saída: O valor a pagar é R$ 5.00
 
+## 📚 Exercício 6: Verificar em qual intervalo um valor se encontra
+
+### 🧐 Descrição
+
+Neste exercício, criamos um programa que lê um valor e informa em qual dos seguintes **intervalos** o valor se encontra:
+- `[0,25]`
+- `(25,50]`
+- `(50,75]`
+- `(75,100]`
+
+Se o valor não estiver em nenhum desses intervalos, o programa exibirá a mensagem "Fora de intervalo".
+
+### 📋 Exemplo de código
+
+```java
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercicio6 {
+
+    public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Digite um valor:");
+        double valor = sc.nextDouble();
+
+        if (valor >= 0 && valor <= 25.00) {
+            System.out.println("Intervalo [0,25]");
+        } else if (valor > 25.00 && valor <= 50.00) {
+            System.out.println("Intervalo [25,50]");
+        } else if (valor > 50.00 && valor <= 75.00) {
+            System.out.println("Intervalo [50,75]");
+        } else if (valor > 75.00 && valor <= 100.00) {
+            System.out.println("Intervalo [75,100]");
+        } else {
+            System.out.println("Fora do intervalo");
+        }
+
+        sc.close();
+    }
+}
+
 
