@@ -156,7 +156,7 @@ Tabela de preços:
 - 4: Torrada Simples → R$ 2.00
 - 5: Refrigerante → R$ 1.50
 
-###📋 Exemplo de código
+### 📋 Exemplo de código
 
 ```java
 import java.util.Locale;
